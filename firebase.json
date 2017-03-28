@@ -1,0 +1,71 @@
+{
+  	"hosting": {
+    	"public": "public",
+    	"cleanUrls": true,
+    	"redirects": [
+			{
+		  		"source": "/index/",
+		  		"destination": "/index.html",
+		  		"type": 301
+			},
+			{
+		  		"source": "/about/",
+		  		"destination": "/about.html",
+		  		"type": 301
+			},
+			{
+		  		"source": "/portfolio/",
+		  		"destination": "/portfolio.html",
+		  		"type": 301
+			},
+			{
+		  		"source": "/contact/",
+		  		"destination": "/contact.html",
+		  		"type": 301
+			}
+		],
+
+		"headers": [ {
+        	"source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+	        	"headers" : [ {
+	          		"key" : "Access-Control-Allow-Origin",
+	          		"value" : "*"
+	        	} ]
+        	},
+        	{
+        	"source" : "**/*.@(jpg|jpeg|gif|png)",
+	        	"headers" : [ {
+	          		"key" : "Cache-Control",
+	          		"value" : "max-age=31536000"
+	        	} ]
+        	},
+        	{
+        	"source" : "**/*.@(|css|js)",
+	        	"headers" : [ {
+	          		"key" : "Cache-Control",
+	          		"value" : "max-age=31536000"
+	        	} ]
+        	},
+        	{
+        	"source" : "/",
+	        	"headers" : [ {
+	          		"key" : "Cache-Control",
+	          		"value" : "max-age=31536000"
+	        	} ]
+        	},
+        	{
+        	"source" : "https://cdn.firebase.com/js/client/1.0.18/firebase.js",
+	        	"headers" : [ {
+	          		"key" : "Cache-Control",
+	          		"value" : "max-age=31536000"
+	        	} ]
+        	},
+        	{
+        	"source" : "404.html",
+        	"headers" : [ {
+          		"key" : "Cache-Control",
+          		"value" : "max-age=31536000"
+        	} ]
+      	} ]
+	}
+}
