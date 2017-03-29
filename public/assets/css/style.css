@@ -87,6 +87,9 @@
 .color-danger {
   color: #f44336;
 }
+.color-black {
+  color: #000000;
+}
   #map {
   height: 100%;
   }
