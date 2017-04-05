@@ -22,7 +22,7 @@
     <meta name="apple-mobile-web-app-title" content="Portfolio - Samsul Bari">
     <!-- Microsoft IE, WP -->
     <meta name="application-name" content="Portfolio - Samsul Bari">
-		<meta name="msapplication-TileColor" content="#1b95e0">
+    <meta name="msapplication-TileColor" content="#1b95e0">
     <meta name="msapplication-navbutton-color" content="#208EDB">
     <meta name="msApplication-ID" content="microsoft.build.App">
     <meta name="msApplication-PackageFamilyName" content="microsoft.build_8wekyb3d8bbwe">
@@ -31,7 +31,7 @@
     <meta name="msapplication-wide310x150logo" content="assets/img/icon_widetile.png">
 
     <title>Portfolio - Samsul Bari</title>
-    
+
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <link rel="author" href="mailto:contact.samsulbari@gmail.com">
     <link rel="canonical" href="https://www.samsulbari.com/portfolio">
@@ -48,10 +48,10 @@
     <link rel="icon" sizes="192x192" href="assets/img/nice-highres.png">
     <link rel="dns-prefetch" href="https://www.samsulbari.com/portfolio">
     <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee|Roboto:300,400,500,700">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/material-kit.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/material-kit.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,41 +75,181 @@
         </div>
         <div class="collapse navbar-collapse" id="navigation-index">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="about"><i class="fa fa-user"></i> About</a></li>
-            <li><a href="portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="contact"><i class="fa fa-envelope"></i> Contact</a></li>
+            <li><a href="index" target="_self" title="Home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="about" target="_self" title="About"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+            <li><a href="portfolio" target="_self" title="Portfolio"><i class="fa fa-heart" aria-hidden="true"></i> Portfolio</a></li>
+            <li><a href="resume" target="_self" title="Resume"><i class="fa fa-briefcase" aria-hidden="true"></i> Resume</a></li>
+            <li><a href="contact" target="_self" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End of Nav -->
+    <!-- Begin of Header -->
+    <header class="wrapper">
+      <div class="header header-filter" style="background-image: url('assets/img/home/home-bg.jpg');min-height: 567px;">
+      </div>
+    </header>
+    <!-- End of Header -->
     <!-- Begin Content -->
-    <main class="wrapper">
-      <!-- Begin Header -->
-      <header class="header header-filter" style="background-image: url('assets/img/home/home-bg.jpg');min-height: 800px;">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="brand"  style="margin-top: 40%;color: black;">
-                <h2>Sorry this page is coming soon :)</h2>
-                <h4>Please <a href="contact">Contact</a> me to more information, thanks.</h4>
+    <main class="container" id="portfolio">
+      <section>
+        <div class="row">
+          <div class="col-md-4" id="FrontendWebDeveloper">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-code color-success" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Front-end Web Developer</small></h2>
+            <div class="visible-xs">
+              <img src="assets/img/portfolio/portfolio-4.jpg" alt="www.vecteezy.com" class="img-responsive">
+            </div>
+            <div class="hidden-xs">
+              <img src="assets/img/portfolio/portfolio-4.jpg" alt="www.vecteezy.com" class="img-responsive" style="height: 360px;">
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">CSS (Cascading Style Sheets)</li>
+              <li class="list-group-item list-group-item-success">HTML (Hyper Text Markup Language)</li>
+              <li class="list-group-item list-group-item-success">JavaScript</li>
+              <li class="list-group-item list-group-item-success">PHP (PHP: Hypertext Preprocessor)</li>
+              <li class="list-group-item list-group-item-success">CMS (Content Management System)</li>
+              <li class="list-group-item list-group-item-success">Responsive Web Design</li>
+              <li class="list-group-item list-group-item-success">Framework Bootstrap</li>
+              <li class="list-group-item list-group-item-success">Web Performance</li>
+            </ul>
+          </div>
+          <div class="col-md-4" id="SEO">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-line-chart color-danger" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Search Engine Optimization</small></h2>
+            <img src="assets/img/portfolio/portfolio-3.jpg" alt="Portfolio SEO" class="img-responsive">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-danger">Important HTML Elements</li>
+              <li class="list-group-item list-group-item-danger">HTTP Status Codes</li>
+              <li class="list-group-item list-group-item-danger">Canonicalization</li>
+              <li class="list-group-item list-group-item-danger">Webmaster Tools</li>
+              <li class="list-group-item list-group-item-danger">Robot Control Syntax</li>
+              <li class="list-group-item list-group-item-danger">Sitemap Syntax</li>
+              <li class="list-group-item list-group-item-danger">Social Metadata</li>
+              <li class="list-group-item list-group-item-danger">Mobile Web Development</li>
+            </ul>
+          </div>
+          <div class="col-md-4" id="Marketing">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-handshake-o color-info" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Marketing</small></h2>
+            <img src="assets/img/portfolio/portfolio-1.jpg" alt="Portfolio Marketing" class="img-responsive">
+            <div class="list-group">
+              <li class="list-group-item list-group-item-info">Maintain and increase sales volume</li>
+              <li class="list-group-item list-group-item-info">Setting up the prospect of new clients</li>
+              <li class="list-group-item list-group-item-info">Recommend investment strategies to clients</li>
+              <li class="list-group-item list-group-item-info">Establish communication with customers</li>
+              <li class="list-group-item list-group-item-info">Have a good quantitative skills</li>
+              <li class="list-group-item list-group-item-info">Retaining existing customers</li>
+              <li class="list-group-item list-group-item-info">Ensure achievement of sales targets</li>
+              <li class="list-group-item list-group-item-info">Creating a company sales report</li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-terminal color-success" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Web Programming</small></h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                <span>HTML 90%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                <span>CSS 80%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span>Javascrit 60%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span>PHP 70%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span>MySQL 60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-windows color-icon-windows" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Microsoft Office</small></h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                <span >Word 95%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span>Exel 70%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                <span>Power Point 85%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                <span>Outlook 75%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span>Other Office App. 70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <h1 class="text-center"><small><i class="fa fa-2x fa-info-circle color-info" aria-hidden="true"></i></small></h1>
+            <h2 class="text-center"><small>Other Skills</small></h2>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                <span >Listrik Istallation 90%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span>Troubleshooting Windows 70%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                <span>Web Administrator 85%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                <span>Front-end Web Developer 75%</span>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                <span>SEO Website 70%</span>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </section>
     </main>
     <!-- End of Content -->
-    <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-2x fa-chevron-circle-up"></i></a>
     <!-- Begin of Footer -->
     <footer class="footer">
       <div class="container">
         <nav class="pull-right">
           <ul>
-            <li><a href="index" target="_self" title="Home"><i class="fa fa-home"></i></a></li>
+            <li><a href="index" target="_self" title="Home">Home</a></li>
             <li><a href="about" target="_self" title="About">About</a></li>
             <li><a href="portfolio" target="_self" title="Portfolio">Portfolio</a></li>
+            <li><a href="resume" target="_self" title="Resume">Resume</a></li>
             <li><a href="contact" target="_self" title="Contact">Contact</a></li>
             <li><a href="https://www.niagahoster.co.id/ref/98404" target="_blank" title="Domain dan Hosting">Hosting</a></li>
           </ul>
@@ -136,6 +276,28 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/material.min.js"></script>
     <script type="text/javascript" src="assets/js/nouislider.min.js"></script>
-    <script type="text/javascript" src="assets/js/material-kit.js"></script>
+    <script type="text/javascript">
+      if ($('#back-to-top').length) {
+        var scrollTrigger = 100, // px
+        backToTop = function () {
+          var scrollTop = $(window).scrollTop();
+          if (scrollTop > scrollTrigger) {
+            $('#back-to-top').addClass('show');
+          } else {
+            $('#back-to-top').removeClass('show');
+          }
+        };
+        backToTop();
+        $(window).on('scroll', function () {
+          backToTop();
+        });
+        $('#back-to-top').on('click', function (e) {
+          e.preventDefault();
+          $('html,body').animate({
+            scrollTop: 0
+          }, 700);
+        });
+      }
+    </script>
   </body>
 </html>

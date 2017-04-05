@@ -4,27 +4,37 @@
     	"cleanUrls": true,
     	"redirects": [
 			{
-		  		"source": "/index/",
-		  		"destination": "/index.html",
-		  		"type": 301
+	  		"source": "/index/",
+	  		"destination": "/index.html",
+	  		"type": 301
 			},
 			{
-		  		"source": "/about/",
-		  		"destination": "/about.html",
-		  		"type": 301
+	  		"source": "/about/",
+	  		"destination": "/about.html",
+	  		"type": 301
 			},
 			{
-		  		"source": "/portfolio/",
-		  		"destination": "/portfolio.html",
-		  		"type": 301
+	  		"source": "/portfolio/",
+	  		"destination": "/portfolio.html",
+	  		"type": 301
 			},
 			{
-		  		"source": "/contact/",
-		  		"destination": "/contact.html",
-		  		"type": 301
+	  		"source": "/resume/",
+	  		"destination": "/resume.html",
+	  		"type": 301
+			},
+			{
+	  		"source": "/contact/",
+	  		"destination": "/contact.html",
+	  		"type": 301
 			}
 		],
-
+  	"ignore": [
+      ".git",
+			"app.js",
+			"README.md",
+			"firebase-debug.log"
+    ],
 		"headers": [ {
         	"source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
 	        	"headers" : [ {
